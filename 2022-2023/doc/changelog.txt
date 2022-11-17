@@ -13,5 +13,5 @@ Metodi:
 - getNome, metodo public che restituisce il valore della variabile di istanza nome.
 - setPrezzo, metodo public che da un valore alla variabile di istanza prezzo.
 - getPrezzo, metodo public che restituisce il valore della variabile di istanza prezzo.
-- setQuantita, metodo public che da un valore alla variabile di istanza quantita.
-- getQuantita, metodo public che restituisce il valore della variabile di istanza quantita.
+- setQuantita, metodo public che da un valore alla variabile di istanza quantità.
+- getQuantita, metodo public che restituisce il valore della variabile di istanza quantità.
