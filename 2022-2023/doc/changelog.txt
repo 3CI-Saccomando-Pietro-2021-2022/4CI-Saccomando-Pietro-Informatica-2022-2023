@@ -7,7 +7,7 @@ Creo le classi Articolo e VenditaArticolo, e il programma ApplicazioneArticolo.
 Method                  Visibility          Purpose
 - start                 public              Serve per far iniziare il programma.
 - describeProgram       public              Descrive il programma.
-- getInput              public              Prende in ingresso i dati.
+- getInput              public              Prende in ingresso i dati tramite lo Scanner.
 - displayOut            public              Visualizza a video i dati presi in ingresso.
 - setNome               public              Da un valore alla variabile di istanza nome.
 - getNome               public              Restituisce il valore della variabile di istanza nome.
