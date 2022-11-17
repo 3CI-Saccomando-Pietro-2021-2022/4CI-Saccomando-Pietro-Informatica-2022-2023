@@ -16,5 +16,5 @@ setNome               public                    Da un valore alla variabile di i
 getNome               public                    Resistuisce il valore della variabile di istanza nome.
 setPrezzo             public                    Da un valore alla variabile di istanza prezzo.
 getPrezzo             public                    Resistuisce il valore della variabile di istanza prezzo.
-setQuantita           public                    Da un valore alla variabile di istanza quantita che descrive quanti pezzi comprare.
-getQuantita           public                    Resistuisce il valore della variabile di istanza quantita.
+setQuantita           public                    Da un valore alla variabile di istanza quantità che descrive quanti pezzi comprare.
+getQuantita           public                    Resistuisce il valore della variabile di istanza quantità.
