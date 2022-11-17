@@ -4,14 +4,14 @@ All notable changes to this project will be documented in this file.
 ## [1.0] 2022-11-17
 ##Added
 Creo le classi Articolo e VenditaArticolo, e il programma ApplicazioneArticolo.
-Metodi:
-- start, metodo public che serve per far iniziare il programma.
-- describeProgram, metodo public che descrive il programma.
-- getInput, metodo public che prende in ingresso i dati.
-- displayOut, metodo public che visualizza a video i dati presi in ingresso.
-- setNome, metodo public che da un valore alla variabile di istanza nome.
-- getNome, metodo public che restituisce il valore della variabile di istanza nome.
-- setPrezzo, metodo public che da un valore alla variabile di istanza prezzo.
-- getPrezzo, metodo public che restituisce il valore della variabile di istanza prezzo.
-- setQuantita, metodo public che da un valore alla variabile di istanza quantità.
-- getQuantita, metodo public che restituisce il valore della variabile di istanza quantità.
+Method                  Visibility          Purpose
+- start                 public              Serve per far iniziare il programma.
+- describeProgram       public              Descrive il programma.
+- getInput              public              Prende in ingresso i dati.
+- displayOut            public              Visualizza a video i dati presi in ingresso.
+- setNome               public              Da un valore alla variabile di istanza nome.
+- getNome               public              Restituisce il valore della variabile di istanza nome.
+- setPrezzo             public              Da un valore alla variabile di istanza prezzo.
+- getPrezzo             public              Restituisce il valore della variabile di istanza prezzo.
+- setQuantita           public              Da un valore alla variabile di istanza quantità.
+- getQuantita           public              Restituisce il valore della variabile di istanza quantità.
