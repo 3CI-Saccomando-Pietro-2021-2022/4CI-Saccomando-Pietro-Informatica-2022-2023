@@ -1,0 +1,24 @@
+# Changelog
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [1.0] 2022-11-17
+## Added
+Creo la classe model Bagaglio,l'applicazione BagaglioPrezzoCalculator, e il main ApplicazioneArticolo.
+
+Classe Bagaglio
+Method                Visibility                Purpose
+setWeight	      public                    Dà un valore alla variabile di istanza weight.
+getWeight             public                    Resistuisce il valore della variabile di istanza weight.
+sovrapprezzo          public                    Restituisce true o false quando la variabile weight è maggiore della variabile costante MAX_WEIGHT.
+toString              public                    Resistuisce una stringa con il peso del bagaglio.
+
+Classe BagaglioPrezzoCalculator
+Method                Visibility                Purpose
+start   	      public                    Serve per chiamare i metodi che utilizza l'applicazione.
+calcolaPrezzo         public                    Calcola il prezzo del bagaglio in base al suo peso.
+descriviAttività      public                    Dà una breve descrizione del programma.
+visualizzaRisultati   public			Visualizza a schermo i risultati.
+prendiInput	      public 			Prende in input il valore del peso.
