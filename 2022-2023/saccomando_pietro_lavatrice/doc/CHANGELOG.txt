@@ -1,0 +1,22 @@
+# Changelog
+All notable changes to this project will be documented in this file.
+
+## [0.1] 2022-10-06
+Creo le variabili di istanza e i costruttori della classe Lavatrice.
+## [0.2] 2022-10-06
+Creo i metodi accendi e spento.
+## [0.3] 2022-10-06
+Creo i metodi setMarca, getMarca, setModello, geModello, setPrezzo, getPrezzo.
+## [0.4] 2022-10-06
+Creo i metodi setProgramma, getProgramma, aumentaProgramma, diminuisciProgramma.
+## [0.5] 2022-10-06
+Creo i metodi setTemperatura, getTemperatura, aumentaTemperatura, diminuisciTemperatura.
+## [0.6] 2022-10-06
+Creo i metodi setGiri, getGiri, aumentaGiri, diminuisciGiri.
+## [0.7] 2022-10-06
+Creo i metodi setKg, getKg.
+## [0.8] 2022-10-06
+Creo i metodi setTempo, getTempo, aumentaTempo, diminuisciTempo.
+## [0.9] 2022-10-06
+Creo il metodo toString.
+
