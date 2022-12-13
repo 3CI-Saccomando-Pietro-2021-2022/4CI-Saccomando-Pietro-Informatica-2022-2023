@@ -12,25 +12,25 @@ public class Articolo{
     public void setNome(String n){
         if(n!=null){
             this.nome = n;
-        }else{
+        }/*else{
             this.nome = "anonimo";
-        }
+        }*/
     }
     
     public void setPrezzo(double p){
         if(p>0.0){
             this.prezzo = p;
-        }else{
+        }/*else{
             this.prezzo = 0.0;
-        }
+        }*/
     }
     
     public void setQuantita(int q){
         if(q>0){
             this.quantita = q;
-        }else{
+        }/*else{
             this.quantita = 0;
-        }
+        }*/
     }
     
     public String getNome(){
