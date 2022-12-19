@@ -37,4 +37,4 @@ setLuminosità	          public			              Inserisce la luminosità.
 getLuminosità	          public			              Restituisce il valore della luminosità.
 aumentaLuminosità       public			              Aumenta di 1 il valore della luminosità.
 diminuisciLuminosità    public			              Diminuisce di 1 il valore della luminosità.
-
+toString		            public			              Fa un resoconto con tutti i valori impostati della televisione.
