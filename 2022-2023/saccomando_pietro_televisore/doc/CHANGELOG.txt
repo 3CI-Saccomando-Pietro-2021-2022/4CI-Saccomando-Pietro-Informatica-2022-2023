@@ -16,25 +16,25 @@ Creo i metodi setVolume, getVolume, aumentaVolume, diminuisciVolume.
 Creo i metodi setLuminosità, getLuminosità, aumentaLuminosità, diminuisciLuminosità.
 
 Classe Televisore
-Method                  Visibility                Purpose
-accendi                 public                    Restituisce il valore true che indica che la tv è accesa.
-spento                  public                    Restituisce il valore false che indica che la tv è spenta.
-setPollici              public                    Inserisce il numero di pollici della televisione.
-getPollici              public                    Restituisce il numero di pollici della televisione.
-setSchermo              public                    Inserisce il tipo di schermo della televisione.
-getSchermo              public                    Restituisce il tipo di schermo della televisione.
-setColore	              public			              Inserisce i colori della televisione.
-getColore	              public			              Restituisce i colori della televisione.
-setCanale               public			              Inserisce un canale.
-getCanale	              public			              Restituisce il valore del canale.
-aumentaCanale	          public			              Aumenta di 1 il valore del canale.
-diminuisciCanale        public			              Diminuisce di 1 il valore del canale.
-setVolume	              public			              Inserisce il volume.
-getVolume	              public			              Restituisce il valore del volume.
-aumentaVolume	          public			              Aumenta di 1 il valore del volume.
-diminuisciVolume        public			              Diminuisce di 1 il valore del volume.
-setLuminosità	          public			              Inserisce la luminosità.
-getLuminosità	          public			              Restituisce il valore della luminosità.
-aumentaLuminosità       public			              Aumenta di 1 il valore della luminosità.
-diminuisciLuminosità    public			              Diminuisce di 1 il valore della luminosità.
-toString		            public			              Fa un resoconto con tutti i valori impostati della televisione.
+Method                    Visibility                Purpose
+accendi                   public                    Restituisce il valore true che indica che la tv è accesa.
+spento                    public                    Restituisce il valore false che indica che la tv è spenta.
+setPollici                public                    Inserisce il numero di pollici della televisione.
+getPollici                public                    Restituisce il numero di pollici della televisione.
+setSchermo                public                    Inserisce il tipo di schermo della televisione.
+getSchermo                public                    Restituisce il tipo di schermo della televisione.
+setColore                 public                    Inserisce i colori della televisione.
+getColore                 public                    Restituisce i colori della televisione.
+setCanale                 public                    Sceglie un canale.
+getCanale                 public                    Restituisce il valore del canale.
+aumentaCanale             public                    Aumenta di 1 il valore del canale.
+diminuisciCanale          public                    Diminuisce di 1 il valore del canale.
+setVolume                 public                    Inserisce il valore del volume.
+getVolume                 public                    Restituisce il valore del volume.
+aumentaVolume             public                    Aumenta di 1 il valore del volume.
+diminusiciVolume          public                    Diminuisce di 1 il valore del volume.
+setLuminosità             public                    Inserisce il valore della luminosità.
+getLuminosità             public                    Restituisce il valore della luminosità.
+aumentaLuminosità         public                    Aumenta di 1 il valore della luminosità.
+diminuisciLuminosità      public                    Diminuisce di 1 il valore della luminosità.
+toString                  public                    Fa un resoconto con tutti i valori impostati della televisione.
