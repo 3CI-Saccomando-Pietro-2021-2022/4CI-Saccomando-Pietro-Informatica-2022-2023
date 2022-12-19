@@ -51,4 +51,4 @@ setTempFreezer          public                    Imposta la temperatura del fre
 getTempFreezer          public                    Restituisce il valore della temperatura del freezer.
 aumentaTempFreezer      public                    Aumenta di 1 il valore della temperatura del freezer.
 diminuisciTempFreezer   public                    Diminuisce di 1 il valore della temperatura del freezer.
-toString                public                    Fa un resoonto dei valori impostati del frigorifero.
+toString                public                    Fa un resoconto con tutti i valori impostati della lavatrice.
