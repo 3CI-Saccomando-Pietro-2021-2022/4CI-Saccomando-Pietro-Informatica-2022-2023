@@ -20,3 +20,32 @@ Creo i metodi setTempo, getTempo, aumentaTempo, diminuisciTempo.
 ## [0.9] 2022-10-06
 Creo il metodo toString.
 
+Classe Lavatrice
+Method                	 Visibility              Purpose
+accendi               	 public                  Restituisce il valore true che indica che la lavatrice è accesa.
+spento                	 public                  Restituisce il valore false che indica che la lavatrice è spenta.
+setMarca              	 public                  Inserisce la marca della lavatrice.
+getMarca              	 public                  Restituisce il valore della marca della lavatrice.
+setModello            	 public                  Inserisce il modello della lavatrice.
+getModello            	 public                  Restituisce il valore del modello della lavatrice.
+setPrezzo	      	       public			             Inserisce il prezzo della lavatrice.
+getPrezzo	      	       public			             Restituisce il valore del prezzo della lavatrice.
+setProgramma          	 public			             Inserisce un programma.
+getProgramma	      	   public			             Restituisce il valore del programma.
+aumentaProgramma      	 public			             Aumenta di 1 il valore del programma.
+diminuisciProgramma   	 public			             Diminuisce di 1 il valore del programma.
+setTemperatura	      	 public			             Inserisce la temperatura.
+getTemperatura	      	 public			             Restituisce il valore della temperatura.
+aumentaTemperatura     	 public			             Aumenta di 1 il valore della temperatura.
+diminuisciTemperatura  	 public			             Diminuisce di 1 il valore della temperatura.
+setGiri		 	             public			             Inserisce il numero dei giri.
+getGiri			             public			             Restituisce il valore del numero dei giri.
+aumentaGiri		           public			             Aumenta di 1 il valore del numero dei giri.
+diminuisciGiri  	       public			             Diminuisce di 1 il valore del numero dei giri.
+setKg			               public			             Inserisce il numero dei kg che può contenere la lavatrice.
+getKg			               public			             Restituisce il valore del numero dei kg che può contenere la lavatrice.
+setTempo		             public			             Inserisce il tempo di lavaggio (in minuti).
+getTempo		             public			             Restituisce il valore del tempo di lavaggio.
+aumentaTempo		         public			             Aumenta di 1 il valore del tempo di lavaggio.
+diminuiusciTempo	       public			             Diminuisce di 1 il valore del tempo di lavaggio.
+toString		             public			             Fa un resoconto con tutti i valori impostati della lavatrice.
