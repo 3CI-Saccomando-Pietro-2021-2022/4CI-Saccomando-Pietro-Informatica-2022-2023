@@ -27,3 +27,28 @@ Creo i metodi setTempFreezer, getTempFreezer, aumentaTempFreezer, diminuisciTemp
 ## [0.11] 2022-10-13
 Creo il costruttore di copia.
 
+Classe Frigorifero
+Method                  Visibility                Purpose
+accendi                 public                    Restituisce il valore true che indica che il frigorifero è acceso.
+spegni                  public                    Restituisce il valore false indica che il frigorifero è spento.
+setMarca                public                    Inserisce la marca del frigorifero.
+getMarca                public                    Restituisce il valore della marca del frigorifero.
+setModello              public                    Inserisce il modello del frigorifero.
+getModello              public                    Restituisce il valore del modello del figorifero.
+setLitriFrigo           public                    Inserisce il numero di litri che può contenere il frigorifero.
+getLitriFrigo           public                    Restituisce il valore del numero di litri che può contenere il frigorifero.
+setLitriFreezer         public                    Inserisce il numero di litri che può contenere il freezer.
+getLitriFreezer         public                    Restituisce il valore del numero di litri che può contenere il freezer.
+setPrezzo               public                    Inserisce il prezzo del frigorifero.
+getPrezzo               public                    Restituisce il prezzo del frigorifero.
+setKWatt                public                    Inserisce il numero di KWatt che consuma il frigorifero.
+getKWatt                public                    Restituisce il numero di KWatt che consuma il frigorifero.
+setTempFrigo            public                    Imposta la temperatura del frigorifero.
+getTempFrigo            public                    Restituisce il valore della temperatura del frigorifero.
+aumentaTempFrigo        public                    Aumenta di 1 il valore della temperatura del frigorifero.
+diminuisciTempFrigo     public                    Diminuisce di 1 il valore della temperatura del frigorifero.
+setTempFreezer          public                    Imposta la temperatura del freezer.
+getTempFreezer          public                    Restituisce il valore della temperatura del freezer.
+aumentaTempFreezer      public                    Aumenta di 1 il valore della temperatura del freezer.
+diminuisciTempFreezer   public                    Diminuisce di 1 il valore della temperatura del freezer.
+toString                public                    Fa un resoonto dei valori impostati del frigorifero.
