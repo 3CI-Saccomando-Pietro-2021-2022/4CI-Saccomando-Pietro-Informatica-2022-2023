@@ -17,12 +17,12 @@ public class BollettaCalculator{
         Scanner input = new Scanner(System.in);
         do{
             System.out.println("Inserisci consumo precedente: ");
-            contatore.setRivelazionePrecedente(input.nextDouble());
-        }while(contatore.getRivelazionePrecedente()>VALORE_MAX);
+            contatore.setConsumoPrecedente(input.nextDouble());
+        }while(contatore.getConsumoPrecedente()>VALORE_MAX);
         do{
             System.out.println("Inserisci consumo attuale: ");
-            contatore.setRivelazioneAttuale(input.nextDouble());
-        }while(contatore.getRivelazioneAttuale()>VALORE_MAX);
+            contatore.setConsumoAttuale(input.nextDouble());
+        }while(contatore.getConsumoAttuale()>VALORE_MAX);
     }
     public void visualizzaRisultati(){
         System.out.println(contatore.toString());
