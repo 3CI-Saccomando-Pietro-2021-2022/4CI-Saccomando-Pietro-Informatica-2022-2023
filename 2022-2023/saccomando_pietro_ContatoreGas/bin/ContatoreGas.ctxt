@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=ContatoreGas
+comment1.params=
+comment1.target=ContatoreGas()
+comment2.params=rivelazionePrec\ rivelazioneAtt
+comment2.target=ContatoreGas(double,\ double)
+comment3.params=rivelazionePrec
+comment3.target=void\ setRivelazionePrecedente(double)
+comment4.params=
+comment4.target=double\ getRivelazionePrecedente()
+comment5.params=rivelazioneAtt
+comment5.target=void\ setRivelazioneAttuale(double)
+comment6.params=
+comment6.target=double\ getRivelazioneAttuale()
+comment7.params=
+comment7.target=java.lang.String\ toString()
+numComments=8
