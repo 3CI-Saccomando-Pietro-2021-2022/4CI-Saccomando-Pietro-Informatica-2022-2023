@@ -1,45 +1,54 @@
 public class ContatoreGas{
-    private double rivelazionePrec;
-    private double rivelazioneAtt;
+    private double rilevazionePrec;
+    private double rilevazioneAtt;
+    private static final double COSTO = 1.2188;
     public ContatoreGas(){
-        this.rivelazionePrec = 0.0;
-        this.rivelazioneAtt = 0.0;
+        this.rilevazionePrec = 0.0;
+        this.rilevazioneAtt = 0.0;
     }
-    public ContatoreGas(double rivelazionePrec, double rivelazioneAtt){
-        if(rivelazionePrec>0.0){
-            this.rivelazionePrec = rivelazionePrec;
+    public ContatoreGas(double rilevazionePrec, double rilevazioneAtt){
+        if(rilevazionePrec>0.0){
+            this.rilevazionePrec = rilevazionePrec;
         }else{
-            this.rivelazionePrec = rivelazionePrec;
+            this.rilevazionePrec = rilevazionePrec;
         }
-        if(rivelazioneAtt>0.0){
-            this.rivelazioneAtt = rivelazioneAtt;
+        if(rilevazioneAtt>0.0){
+            this.rilevazioneAtt = rilevazioneAtt;
         }else{
-            this.rivelazioneAtt = rivelazioneAtt;
-        }
-    }
-    public void setRivelazionePrecedente(double rivelazionePrec){
-        if(rivelazionePrec>0.0){
-            this.rivelazionePrec = rivelazionePrec;
-        }else{
-            this.rivelazionePrec = rivelazionePrec;
+            this.rilevazioneAtt = rilevazioneAtt;
         }
     }
-    public double getRivelazionePrecedente(){
-        return this.rivelazionePrec;
-    }
-    public void setRivelazioneAttuale(double rivelazioneAtt){
-        if(rivelazioneAtt>0.0){
-            this.rivelazioneAtt = rivelazioneAtt;
+    public void setConsumoPrecedente(double rilevazionePrec){
+        if(rilevazionePrec>0.0){
+            this.rilevazionePrec = rilevazionePrec;
         }else{
-            this.rivelazioneAtt = rivelazioneAtt;
+            this.rilevazionePrec = rilevazionePrec;
         }
     }
-    public double getRivelazioneAttuale(){
-        return this.rivelazioneAtt;
+    public double getConsumoPrecedente(){
+        return this.rilevazionePrec;
+    }
+    public void setConsumoAttuale(double rilevazioneAtt){
+        if(rilevazioneAtt>0.0){
+            this.rilevazioneAtt = rilevazioneAtt;
+        }else{
+            this.rilevazioneAtt = rilevazioneAtt;
+        }
+    }
+    public double getConsumoAttuale(){
+        return this.rilevazioneAtt;
+    }
+    public double rilevazionePrecedente(){
+        return this.rilevazionePrec*COSTO;
+    }
+    public double rilevazioneAttuale(){
+        return this.rilevazioneAtt*COSTO;
     }
     public String toString(){
-        String out="Il consumo precedente � di: " + this.rivelazionePrec + " metri cubi." + "\n";
-        out+="Il consumo attuale � di: " + this.rivelazioneAtt + " metri cubi.";
+        String out="Il consumo precedente è di: " + this.rilevazionePrec + " metri cubi." + "\n";
+        out+="Il consumo attuale è di: " + this.rilevazioneAtt + " metri cubi." + "\n";
+        out+="La bolletta precedente è di :" + rilevazionePrecedente() + " €" + "\n";
+        out+="La bolletta attuale è di :" + rilevazioneAttuale() + " €" + "\n";
         return out;
     }
 }
