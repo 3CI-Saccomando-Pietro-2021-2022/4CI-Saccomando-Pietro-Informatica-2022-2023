@@ -11,13 +11,13 @@ Creo la classe model *ContatoreGas*,l'applicazione *BollettaCalculator*, e il ma
 Classe **ContatoreGas**
 | Method | Visibility | Purpose|
 |-|-|-|
-**setConsumoPrecedente** | **public** | **Dà un valore alla variabile di istanza rivelazionePrec.**
-**getConsumoPrecedente** | **public** | **Resistuisce il valore della variabile di istanza rivelazionePrec.**
-**setConsumoAttuale** | **public** | **Dà un valore alla variabile di istanza rivelazioneAtt.**
-**getConsumoAttuale** | **public** | **Resistuisce il valore della variabile di istanza rivelazioneAtt.**
+**setConsumoPrecedente** | **public** | **Dà un valore alla variabile di istanza rilevazionePrec.**
+**getConsumoPrecedente** | **public** | **Resistuisce il valore della variabile di istanza rilevazionePrec.**
+**setConsumoAttuale** | **public** | **Dà un valore alla variabile di istanza rilevazioneAtt.**
+**getConsumoAttuale** | **public** | **Resistuisce il valore della variabile di istanza rilevazioneAtt.**
 **rilevazionePrecedente** | **public** | **Calcola il costo del consumo precedente**
 **rilevazioneAttuale** | **public** | **Calcola il costo del consumo attuale**
-**toString** | **public** | **Resistuisce una stringa con i valori delle variabili rivelazionePrec e rivelazioneAtt.**
+**toString** | **public** | **Resistuisce una stringa con i valori delle variabili rilevazionePrec e rilevazioneAtt, e il costo del consumo precedente e attuale.**
 
 
 Classe **BollettaCalculator**
@@ -26,4 +26,4 @@ Classe **BollettaCalculator**
 **start** | **public** | **Richiama i metodi che servono per far funzionare l'applicazione avviandola.**
 **descrizioneApp** | **public** | **Dà una breve descrizione del programma.**
 **visualizzaRisultati** | **public** | **Visualizza a schermo i risultati.**
-**prendiInput** | **public** | **Prende in input i valori delle variabili rivelazionePrec e rivelazioneAtt.**
+**prendiInput** | **public** | **Prende in input i valori delle variabili rilevazionePrec e rilevazioneAtt.**
