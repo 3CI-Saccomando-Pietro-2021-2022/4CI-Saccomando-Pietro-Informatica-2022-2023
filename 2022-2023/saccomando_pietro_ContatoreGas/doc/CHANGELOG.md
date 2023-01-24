@@ -11,10 +11,12 @@ Creo la classe model *ContatoreGas*,l'applicazione *BollettaCalculator*, e il ma
 Classe **ContatoreGas**
 | Method | Visibility | Purpose|
 |-|-|-|
-**setRivelazionePrecedente** | **public** | **Dà un valore alla variabile di istanza rivelazionePrec.**
-**getRivelazionePrecedente** | **public** | **Resistuisce il valore della variabile di istanza rivelazionePrec.**
-**setRivelazioneAttuale** | **public** | **Dà un valore alla variabile di istanza rivelazioneAtt.**
-**getRivelazioneAttuale** | **public** | **Resistuisce il valore della variabile di istanza rivelazioneAtt.**
+**setConsumoPrecedente** | **public** | **Dà un valore alla variabile di istanza rivelazionePrec.**
+**getConsumoPrecedente** | **public** | **Resistuisce il valore della variabile di istanza rivelazionePrec.**
+**setConsumoAttuale** | **public** | **Dà un valore alla variabile di istanza rivelazioneAtt.**
+**getConsumoAttuale** | **public** | **Resistuisce il valore della variabile di istanza rivelazioneAtt.**
+**rilevazionePrecedente** | **public** | **Calcola il costo del consumo precedente**
+**rilevazioneAttuale** | **public** | **Calcola il costo del consumo attuale**
 **toString** | **public** | **Resistuisce una stringa con i valori delle variabili rivelazionePrec e rivelazioneAtt.**
 
 
