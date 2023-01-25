@@ -7,33 +7,17 @@ public class ContatoreGas{
         this.rilevazioneAtt = 0.0;
     }
     public ContatoreGas(double rilevazionePrec, double rilevazioneAtt){
-        if(rilevazionePrec>0.0){
-            this.rilevazionePrec = rilevazionePrec;
-        }else{
-            this.rilevazionePrec = rilevazionePrec;
-        }
-        if(rilevazioneAtt>0.0){
-            this.rilevazioneAtt = rilevazioneAtt;
-        }else{
-            this.rilevazioneAtt = rilevazioneAtt;
-        }
+        this.rilevazionePrec = rilevazionePrec;
+        this.rilevazioneAtt = rilevazioneAtt;
     }
     public void setConsumoPrecedente(double rilevazionePrec){
-        if(rilevazionePrec>0.0){
-            this.rilevazionePrec = rilevazionePrec;
-        }else{
-            this.rilevazionePrec = rilevazionePrec;
-        }
+        this.rilevazionePrec = rilevazionePrec;
     }
     public double getConsumoPrecedente(){
         return this.rilevazionePrec;
     }
     public void setConsumoAttuale(double rilevazioneAtt){
-        if(rilevazioneAtt>0.0){
-            this.rilevazioneAtt = rilevazioneAtt;
-        }else{
-            this.rilevazioneAtt = rilevazioneAtt;
-        }
+        this.rilevazioneAtt = rilevazioneAtt;}
     }
     public double getConsumoAttuale(){
         return this.rilevazioneAtt;
