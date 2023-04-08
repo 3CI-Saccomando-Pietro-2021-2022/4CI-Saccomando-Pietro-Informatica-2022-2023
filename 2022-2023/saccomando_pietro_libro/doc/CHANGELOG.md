@@ -2,7 +2,7 @@
 
 
 ## Descrizione
-Si crea un'applicazione che prendendo in input dei film dal file *libro.txt* restituisce il libro con il numero di pagine maggiore, la lista di libri riordinata dal libro più breve al più lungo, e scelto un regista stampare i libri che ha scritto. 
+Si crea un'applicazione che prendendo in input dei film dal file *libro.txt* restituisce il libro con il numero di pagine maggiore, la lista di libri riordinata dal libro più breve al più lungo, e scelto un regista stampare i libri che ha scritto; questi risultati verranno poi salvati nel file risultato.txt.
 
 **Classe Libro**
 | METODI | VISIBILITA'| SCOPO |
