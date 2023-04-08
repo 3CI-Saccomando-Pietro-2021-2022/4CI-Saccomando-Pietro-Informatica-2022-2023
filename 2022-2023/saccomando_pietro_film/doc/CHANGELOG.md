@@ -21,7 +21,7 @@ Si crea un'applicazione che prendendo in input dei film dal file *film.txt* rest
 |-------|--------|---------|
 |start | public	 | Richiama i metodi descriviAttività, getInput, scriviFile.
 |descrviAttività | public | Descrive cosa fa l'applicazione.
-|getInput | public | Prende in input dall'utente il nome del file da dove prelevare i dati e il nome del regista per vedere quali fil ha fatto.
+|getInput | public | Prende in input dall'utente il nome del file da dove prelevare i dati e il nome del regista per vedere quali film ha fatto.
 |leggiFile | public	| Legge i dati dal file preso in ingresso nel metodo precedente.
 |scriviFile | public | Scrive sul file *risultato.txt* i film presi dal file dato in input, il film con durata maggiore, il film fatto dal regista scelto dall'utente, e i film riordinati per durata dal più breve al pià lungo.
 |scegliRegista | public | In base al regista scelto dall'utente visualizza quali film ha fatto.
