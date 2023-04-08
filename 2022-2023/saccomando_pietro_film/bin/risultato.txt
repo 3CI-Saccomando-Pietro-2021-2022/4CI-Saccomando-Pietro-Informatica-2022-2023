@@ -1,0 +1,18 @@
+I tuoi film sono: 
+La strada; Federico Fellini; 89
+Taxi Driver; Martin Scorsese; 136
+Edward Mani di Forbice; Tim Burton; 67
+Pulp Fiction; Quentin Tarantino; 124
+Amarcord; Federico Fellini; 193
+Toro scatenato; Martin Scorsese; 69
+Apocalypse Now; Francis Ford Coppola; 78
+Il film con durata maggiore è: Amarcord; Federico Fellini; 193
+I film registati dal regista scelto sono: Pulp Fiction; Quentin Tarantino; 124
+I film riordinati: 
+Edward Mani di Forbice; Tim Burton; 67
+Toro scatenato; Martin Scorsese; 69
+Apocalypse Now; Francis Ford Coppola; 78
+La strada; Federico Fellini; 89
+Pulp Fiction; Quentin Tarantino; 124
+Taxi Driver; Martin Scorsese; 136
+Amarcord; Federico Fellini; 193

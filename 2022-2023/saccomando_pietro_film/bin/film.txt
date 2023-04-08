@@ -1,0 +1,7 @@
+La strada;Federico Fellini;89
+Taxi Driver;Martin Scorsese;136
+Edward Mani di Forbice;Tim Burton;67
+Pulp Fiction;Quentin Tarantino;124
+Amarcord;Federico Fellini;193
+Toro scatenato;Martin Scorsese;69
+Apocalypse Now;Francis Ford Coppola;78
