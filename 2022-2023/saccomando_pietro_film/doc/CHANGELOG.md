@@ -2,7 +2,7 @@
 
 
 ## Descrizione
-Si crea un'applicazione che prendendo in input dei film dal file *film.txt* restituisce il film con durata maggiore, la lista di film riordinata dal film meno lungo al più lungo, e scelto un autore stampare i film che ha fatto; questi risultati verranno poi salvati nel file *risultato.txt*.
+Si crea un'applicazione che prendendo in input dei film dal file *film.txt* restituisce il film con durata maggiore, la lista di film riordinata dal film più breve al più lungo, e scelto un autore stampare i film che ha fatto; questi risultati verranno poi salvati nel file *risultato.txt*.
 
 **Classe Film**
 | METODI | VISIBILITA'| SCOPO |
