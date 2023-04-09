@@ -73,17 +73,15 @@ public class LibriCalculator {
         return out;
     }
     public ArrayList<Libro> stampaLibriPerNumPagine() {
-        ArrayList<Libro> libriCopia = new ArrayList<>(this.libri);
-        int n = libriCopia.size();
-        for (int i = 0; i < n - 1; i++) {
-            for (int j = 0; j < n - i - 1; j++) {
-                if (libriCopia.get(j).getNumPagine() > libriCopia.get(j + 1).getNumPagine()) {
-                    Libro temp = libriCopia.get(j);
-                    libriCopia.set(j, libriCopia.get(j + 1));
-                    libriCopia.set(j + 1, temp);
+        for (int i = 0; i < libri.size() - 1; i++) {
+            for (int j = 0; j < libri.size() - i - 1; j++) {
+                if (libri.get(j).getNumPagine() > libri.get(j + 1).getNumPagine()) {
+                    Libro temp = libri.get(j);
+                    libri.set(j, libri.get(j + 1));
+                    libri.set(j + 1, temp);
                 }
             }
         }
-        return libriCopia;
+        return libri;
     }
 }
