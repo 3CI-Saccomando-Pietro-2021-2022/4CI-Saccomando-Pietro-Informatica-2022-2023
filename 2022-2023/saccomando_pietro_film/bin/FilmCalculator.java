@@ -73,21 +73,16 @@ public class FilmCalculator {
         return filmConDurataMaggiore;
     }
     public ArrayList<Film> stampaFilmPerDurata() {
-        ArrayList<Film> lis = new ArrayList<>(this.film);
-        int n = lis.size();
-        for (int i = 0; i < n - 1; i++) {
-            for (int j = 0; j < n - i - 1; j++) {
-                if (lis.get(j).getDurata() > lis.get(j + 1).getDurata()) {
-                    Film temp = lis.get(j);
-                    lis.set(j, lis.get(j + 1));
-                    lis.set(j + 1, temp);
+        for (int i = 0; i < film.size() - 1; i++) {
+            for (int j = 0; j < film.size() - i - 1; j++) {
+                if (film.get(j).getDurata() > film.get(j + 1).getDurata()) {
+                    Film temp = film.get(j);
+                    film.set(j, film.get(j + 1));
+                    film.set(j + 1, temp);
                 }
             }
         }
-        for (Film f : lis) {
-            System.out.println(f);
-        }
-        return lis;
+        return film;
     }
 }
 
