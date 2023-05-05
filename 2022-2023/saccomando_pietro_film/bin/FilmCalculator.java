@@ -2,8 +2,8 @@ import java.util.*;
 import java.io.*;
 public class FilmCalculator {
     private ArrayList<Film> film;
-    Scanner in = new Scanner(System.in);
-    private String regista;
+    //Scanner in = new Scanner(System.in);
+    //private String regista;
     public void start() throws FileNotFoundException, IOException{
         getInput();
         descriviAttività();
@@ -13,11 +13,13 @@ public class FilmCalculator {
         System.out.println("Dico cosa fa il programma");
     }
     public void getInput() throws FileNotFoundException {
+        Scanner in = new Scanner(System.in);
         System.out.println("Dimmi il nome del file: ");
         String fileName = in.nextLine();
         leggiFile(fileName);
+        private String regista;
         System.out.println("Dimmi il nome del regista: ");
-        this.regista = in.nextLine();
+        regista = in.nextLine();
     }
     public FilmCalculator() {
         this.film = new ArrayList<>();
