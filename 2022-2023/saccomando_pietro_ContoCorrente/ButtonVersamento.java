@@ -25,7 +25,7 @@ public class ButtonVersamento implements ActionListener{
             banca.effettuaVersamento(nomeProprietario, importo);
             JOptionPane.showMessageDialog(null, "Il versamento è avvenuto con successo!", "Versamento", JOptionPane.INFORMATION_MESSAGE);
         }else {
-            JOptionPane.showMessageDialog(null, "Conto non trovato!", "Errore", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(null, "Il conto è stato chiuso e non si possono più effettuare azioni su di esso!", "Errore", JOptionPane.ERROR_MESSAGE);
         }
     }
 }

@@ -29,7 +29,7 @@ public class ButtonPagamento implements ActionListener{
             JOptionPane.showMessageDialog(null, "L'importo inserito non è valido!", "Errore", JOptionPane.ERROR_MESSAGE);
         }
     } else {
-        JOptionPane.showMessageDialog(null, "Conto non trovato!", "Errore", JOptionPane.ERROR_MESSAGE);
+        JOptionPane.showMessageDialog(null, "Il conto è stato chiuso e non si possono più effettuare azioni su di esso!", "Errore", JOptionPane.ERROR_MESSAGE);
     }
 }
 }

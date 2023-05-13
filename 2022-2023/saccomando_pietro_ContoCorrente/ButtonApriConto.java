@@ -26,7 +26,7 @@ public class ButtonApriConto implements ActionListener{
             banca.aggiungiConto(conto);
             JOptionPane.showMessageDialog(null, "Il conto è stato aperto con successo!", "Apertura conto", JOptionPane.INFORMATION_MESSAGE);
         }else{
-            JOptionPane.showMessageDialog(null, "Conto non trovato!", "Errore", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(null, "Il conto è stato chiuso e non si possono più effettuare azioni su di esso!", "Errore", JOptionPane.ERROR_MESSAGE);
         }
     }
 }
