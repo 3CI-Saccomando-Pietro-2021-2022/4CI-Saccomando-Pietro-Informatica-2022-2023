@@ -21,7 +21,7 @@ public class ButtonPagamento implements ActionListener{
     String nomeProprietario = textNomeProprietario.getText();
     ContoCorrente conto = banca.cercaConto(nomeProprietario);
     if (conto != null) {
-        double importo = Double.parseDouble(JOptionPane.showInputDialog(null, "Inserisci l'importo del versamento"));
+        double importo = Double.parseDouble(JOptionPane.showInputDialog(null, "Inserisci l'importo del pagamento"));
         if (conto.getSaldo()>=importo) {
             banca.effettuaPagamento(nomeProprietario, importo);
             JOptionPane.showMessageDialog(null, "Il pagamento è avvenuto con successo!", "Pagamento", JOptionPane.INFORMATION_MESSAGE);
