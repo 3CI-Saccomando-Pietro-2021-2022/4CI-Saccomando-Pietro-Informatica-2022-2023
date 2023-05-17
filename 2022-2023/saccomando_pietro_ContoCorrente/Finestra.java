@@ -3,7 +3,6 @@ import java.awt.*;
 
 public class Finestra extends JFrame {
     private Banca banca;
-    private Font font;
     private Container contentPane;
     private JPanel pannello_titolo;
     private JPanel pannello_centrale;
