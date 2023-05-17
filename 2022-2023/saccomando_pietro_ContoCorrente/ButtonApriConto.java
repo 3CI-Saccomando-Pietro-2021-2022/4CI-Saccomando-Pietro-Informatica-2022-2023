@@ -17,16 +17,13 @@ public class ButtonApriConto implements ActionListener{
     }
     public void actionPerformed(ActionEvent e) {
         String nomeProprietario = textNomeProprietario.getText();
-        if(nomeProprietario.trim().isEmpty()) {
+        if(nomeProprietario.isEmpty()) {
             JOptionPane.showMessageDialog(null, "Inserisci il nome del proprietario!", "Apertura conto", JOptionPane.INFORMATION_MESSAGE);
             return;
         }
         ContoCorrente conto = new ContoCorrente(nomeProprietario, 0.0);
-        if(conto!=null){
-            banca.aggiungiConto(conto);
-            JOptionPane.showMessageDialog(null, "Il conto è stato aperto con successo!", "Apertura conto", JOptionPane.INFORMATION_MESSAGE);
-        }else{
-            JOptionPane.showMessageDialog(null, "Il conto è stato chiuso e non si possono più effettuare azioni su di esso!", "Errore", JOptionPane.ERROR_MESSAGE);
-        }
+        banca.aggiungiConto(conto);
+        JOptionPane.showMessageDialog(null, "Il conto è stato aperto con successo!", "Apertura conto", JOptionPane.INFORMATION_MESSAGE);
+        textAreaContoCorrente.setText(banca.visualizzaConto(nomeProprietario));
     }
 }

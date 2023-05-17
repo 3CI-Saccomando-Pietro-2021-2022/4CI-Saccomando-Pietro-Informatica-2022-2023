@@ -23,6 +23,7 @@ public class Finestra extends JFrame {
         setLocationRelativeTo(null);
         banca = new Banca();
         contentPane=this.getContentPane();
+        
         //Creo il pannello superiore con il titolo
         pannello_titolo = new JPanel(new BorderLayout());
         pannello_titolo.setPreferredSize(new Dimension(1000, 300));
@@ -74,7 +75,8 @@ public class Finestra extends JFrame {
         visualizza = new JButton("Visualizza conto");
         visualizza.setBackground(Color.ORANGE);
         ButtonVisualizza v = new ButtonVisualizza(banca, casella_nome, informazioni_conto);
-        visualizza.addActionListener(v);       
+        visualizza.addActionListener(v);
+        
         //Aggiungo al pannello di destra i bottoni
         pannello_destra.add(versa);
         pannello_destra.add(paga);

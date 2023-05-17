@@ -24,8 +24,9 @@ public class ButtonVersamento implements ActionListener{
             double importo = Double.parseDouble(JOptionPane.showInputDialog(null, "Inserisci l'importo del versamento"));
             banca.effettuaVersamento(nomeProprietario, importo);
             JOptionPane.showMessageDialog(null, "Il versamento è avvenuto con successo!", "Versamento", JOptionPane.INFORMATION_MESSAGE);
+            textAreaContoCorrente.setText(banca.visualizzaConto(nomeProprietario));
         }else {
-            JOptionPane.showMessageDialog(null, "Il conto è stato chiuso e non si possono più effettuare azioni su di esso!", "Errore", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(null, "Il conto è stato chiuso o non è mai stato aperto!", "Errore", JOptionPane.ERROR_MESSAGE);
         }
     }
 }

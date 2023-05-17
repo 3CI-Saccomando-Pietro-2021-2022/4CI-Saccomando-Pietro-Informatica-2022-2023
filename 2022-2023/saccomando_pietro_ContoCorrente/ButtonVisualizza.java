@@ -22,7 +22,7 @@ public class ButtonVisualizza implements ActionListener{
         if (conto != null) {
             textAreaContoCorrente.setText(banca.visualizzaConto(nomeProprietario));
         }else {
-            JOptionPane.showMessageDialog(null, "Il conto è stato chiuso e non si possono più effettuare azioni su di esso!", "Errore", JOptionPane.ERROR_MESSAGE); 
+            JOptionPane.showMessageDialog(null, "Il conto è stato chiuso o non è mai stato aperto!", "Errore", JOptionPane.ERROR_MESSAGE); 
         }
     }
 }
